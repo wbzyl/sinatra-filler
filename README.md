@@ -31,10 +31,10 @@ An inline example:
     @@layout
     <meta charset="utf-8" />
     <title>{%= filler_for?(:title) ? output_filler_for(:title) : "Untitled" %}</title>
-    {%= output_filler_for(:head) -%}
+    {% output_filler_for(:head) -%}
     <body>
     {% if filler_for?(:title) && show_title? %}
-    <h1>{%= output_filler_for(:title) %}</h1>
+    <h1>{% output_filler_for(:title) %}</h1>
     {% end %}
     {%= yield -%}
 
