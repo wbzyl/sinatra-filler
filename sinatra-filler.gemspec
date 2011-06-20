@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
   s.description = %q{Small Sinatra extension to add several helpers methods: filler_for, stylesheets, javascripts}
 
   s.rubyforge_project = 'sinatra-filler', '>= 0.0.3'
+
   s.add_runtime_dependency 'sinatra', '>= 1.1'
   s.add_runtime_dependency 'sinatra-static-assets', '>= 0.5.0'
   s.add_development_dependency 'rspec'
