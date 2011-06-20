@@ -4,7 +4,7 @@ require "sinatra/version"
 
 Gem::Specification.new do |s|
   s.name        = "sinatra-filler"
-  s.version     = Sinatra::Filler::VERSION
+  s.version     = "1.0.0"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Włodek Bzyl"]
   s.email       = ["matwb@ug.edu.pl"]
